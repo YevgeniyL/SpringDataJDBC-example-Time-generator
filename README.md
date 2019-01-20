@@ -3,6 +3,7 @@ Simple example java application with smallest framework "Spring Data JDBC"
 
 ### Include
 
+ - Java 8
  - spring-data-jdbc
  - HikariCP
  
@@ -12,7 +13,7 @@ Base application configuration (datasource, timeouts...) in file application.pro
 build with maven: clean assembly:assembly 
 ```
 Simple start is will run Timestamp generation and write data to database
-If run with key -p woll be show database data. Additional key -debug to show more info.
+If run with key `-p` woll be show database data. Additional key `-debug` to show more info.
 
 ### Database structure
 ```sh 
