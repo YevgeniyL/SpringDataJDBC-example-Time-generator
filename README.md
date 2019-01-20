@@ -16,7 +16,7 @@ If run with key -p woll be show database data. Additional key -debug to show mor
 
 ### Database structure
 ```sh 
-create table test
+create table generated_data
 (
 	Id bigint auto_increment
 		primary key,
